@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e2c3a2b-fd12-4aab-a229-447547fd3938" name="Changes" comment="" />
+    <list default="true" id="4cbe0e09-4a7a-4b09-9901-bf0b188fe831" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Shoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ShopItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ShopItemManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Tops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Shoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/ShopItem$InnerComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/ShopItem$StaticInnerComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/ShopItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/ShopItemManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/ShopItemManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/com/company/Tops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/out/production/lab3/com/company/HomeAppliance$InnerComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/out/production/lab3/com/company/HomeAppliance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/out/production/lab3/com/company/HomeApplianceList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/out/production/lab3/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/out/production/lab3/com/company/Menu.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +38,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1zOaJEFJVZde2al1VBTu0blto6l" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1zOxCpYYwBm1KGwaAR2xS6zAyYa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -80,7 +110,8 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="untitled104" />
+      <module name="lab2" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -96,16 +127,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e2c3a2b-fd12-4aab-a229-447547fd3938" name="Changes" comment="" />
-      <created>1634021516930</created>
+      <changelist id="4cbe0e09-4a7a-4b09-9901-bf0b188fe831" name="Changes" comment="" />
+      <created>1634032810780</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1634021516930</updated>
-      <workItem from="1634021521888" duration="514000" />
+      <updated>1634032810780</updated>
+      <workItem from="1634032812799" duration="227000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
