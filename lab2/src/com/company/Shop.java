@@ -1,22 +1,25 @@
 package com.company;
-import java.util.*;
+
+import java.util.ArrayList;
 
 public class Shop {
-    static public void fullFillArray(ArrayList<ShopItem> items){
-        items.add(new Shoes((Float.parseFloat("543.23")), "informal", "yellow", "Adidas", "Ultraboost", "Sport Sneakers", Float.parseFloat("44")));
-        items.add(new Shoes((Float.parseFloat("201.50")), "informal", "green", "Nike", "Stan Smith", "Sport Sneakers", Float.parseFloat("42")));
-        items.add(new Shoes((Float.parseFloat("672.17")), "informal", "black", "Reebok", "Superstar", "Sport Sneakers", Float.parseFloat("39")));
+    public void fillItemArrayList(ArrayList<Item> itemArrayList){
+        itemArrayList.add(new Clothing("diving mask tnf laguna", 19.99, "diving", "s"));
+        itemArrayList.add(new Clothing("diving mask tnf laguna", 19.99, "diving", "m"));
+        itemArrayList.add(new Clothing("dry suit  extrwt blue", 39.99, "scuba diving", "m"));
+        itemArrayList.add(new Clothing("dry suit  extrwt black", 49.99, "scuba diving", "m"));
+        itemArrayList.add(new Clothing("wet suit power 200", 24.99, "surfing", "m"));
+        itemArrayList.add(new Clothing("helmet extrmsnow def100+", 69.99, "snowboarding", "s"));
+        itemArrayList.add(new Clothing("helmet extrmsnow def100+", 69.99, "snowboarding", "m"));
+        itemArrayList.add(new Clothing("helmet extrmsnow def500+", 99.99, "snowboarding", "m"));
+        itemArrayList.add(new Equipment("flippers extwt pwr100", 14.99, "diving", -10,60));
+        itemArrayList.add(new Equipment("flippers extwt pwr200", 24.99, "diving", -15,65));
+        itemArrayList.add(new Equipment("rebreather o2 xw100", 89.99, "scuba diving", -30,70));
+        itemArrayList.add(new Equipment("rebreather o2 xw150", 119.99, "scuba diving", -40,80));
+        itemArrayList.add(new Equipment("snowboard snw glide1000", 139.99, "snowboarding", -70,30));
+        itemArrayList.add(new Equipment("surfboard wtr super gilde", 124.99, "surfing", -15,65));
+        itemArrayList.add(new Equipment("wingsuit gdfl inv500", 199.99, "wingsuit", -40,60));
+        itemArrayList.add(new Equipment("parachute gdfl dwn300", 179.99, "wingsuit", -50,70));
 
-        items.add(new Shoes((Float.parseFloat("932")), "formal", "gray", "Timberland", "Chelsea", "CLSC Boots", Float.parseFloat("41")));
-        items.add(new Shoes((Float.parseFloat("1024")), "formal", "black", "Zanzara", "Cole Ha", "Loafers", Float.parseFloat("45")));
-        items.add(new Shoes((Float.parseFloat("761")), "formal", "black", "Penttatin", "Verke", "Moccasins", Float.parseFloat("42")));
-
-        items.add(new Tops((Float.parseFloat("212.20")) , "informal", "white", "Adidas", "Blogedemash", "Loungewears WS", "L"));
-        items.add(new Tops((Float.parseFloat("456")), "informal", "purple", "Balenca", "Glammorcan", "Loungewears WS", "XS"));
-        items.add(new Tops((Float.parseFloat("673.99")), "informal", "yellow", "Nike", "Shmoofoil", "T-Shirts Man", "M"));
-
-        items.add(new Tops((Float.parseFloat("891.50")), "formal", "black", "Tom Ford", "La Greca", "Shirts WS", "XL"));
-        items.add(new Tops((Float.parseFloat("643.99")), "formal", "gray", "Versace", "Medusa", "Jackets", "M"));
-        items.add(new Tops((Float.parseFloat(" 1031.99")), "formal", "gray", "Versace", "Barocco", "Sleeveless", "XL"));
     }
 }

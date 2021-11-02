@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cbe0e09-4a7a-4b09-9901-bf0b188fe831" name="Changes" comment="added lab2" />
+    <list default="true" id="d5a34f9b-9704-4a28-b82b-ea8c71fc4ac3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Clothing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Equipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ItemManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/diagram.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/lab4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/segmentation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/src/com/company/StringWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/untitled104.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/com/company/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/Shoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/com/company/Shop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/ShopItem$InnerComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/ShopItem$StaticInnerComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/ShopItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/ShopItemManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/ShopItemManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/Tops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Shoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ShopItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ShopItemManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Tops.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +57,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1zOxCpYYwBm1KGwaAR2xS6zAyYa" />
+  <component name="ProjectId" id="20KieN2bx8OIGDasDjisdunIgLQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -81,15 +121,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="lab2" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -105,21 +149,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4cbe0e09-4a7a-4b09-9901-bf0b188fe831" name="Changes" comment="" />
-      <created>1634032810780</created>
+      <changelist id="d5a34f9b-9704-4a28-b82b-ea8c71fc4ac3" name="Changes" comment="" />
+      <created>1635799781614</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1634032810780</updated>
-      <workItem from="1634032812799" duration="292000" />
+      <updated>1635799781614</updated>
+      <workItem from="1635799783159" duration="909000" />
+      <workItem from="1635800839825" duration="8286000" />
+      <workItem from="1635838680557" duration="780000" />
+      <workItem from="1635839561168" duration="382000" />
     </task>
-    <task id="LOCAL-00001" summary="added lab2">
-      <created>1634033106860</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1634033106860</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,9 +174,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added lab2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lab2" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

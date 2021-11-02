@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="505.0" y="-899.0">com.company.Item.StaticInnerComparator</node>
+    <node x="536.5" y="-459.0">com.company.Shop</node>
+    <node x="263.0" y="-899.0">com.company.Item.InnerComparator</node>
+    <node x="176.5" y="-79.0">com.company.Main</node>
+    <node x="27.0" y="-932.5">com.company.Order</node>
+    <node x="1158.0" y="-921.5">com.company.Equipment</node>
+    <node x="588.5" y="-1403.5">com.company.Item</node>
+    <node x="834.0" y="-910.5">com.company.Clothing</node>
+    <node x="111.5" y="-525.0">com.company.ItemManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Main" target="com.company.Order" relationship="DEPENDENCY">
+      <point x="-83.5" y="0.0" />
+      <point x="55.0" y="-40.0" />
+      <point x="55.0" y="-542.5" />
+      <point x="120.0" y="-542.5" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="com.company.ItemManager" target="com.company.Item.InnerComparator" relationship="CREATE">
+      <point x="0.0" y="-105.0" />
+      <point x="-60.0" y="39.0" />
+    </edge>
+    <edge source="com.company.Item.InnerComparator" target="com.company.Item" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.0" />
+      <point x="360.0" y="-919.0" />
+      <point x="700.0" y="-919.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="com.company.Clothing" target="com.company.Item" relationship="GENERALIZATION">
+      <point x="146.0" y="0.0" />
+      <point x="1142.0" y="-860.0" />
+      <point x="1142.0" y="-1320.0" />
+      <point x="111.5" y="0.0" />
+    </edge>
+    <edge source="com.company.Item.StaticInnerComparator" target="com.company.Item" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.0" />
+      <point x="620.0" y="-919.0" />
+      <point x="700.0" y="-919.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.ItemManager" relationship="CREATE">
+      <point x="40.0" y="-39.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="com.company.Item.InnerComparator" target="com.company.Item" relationship="INNER_CLASS">
+      <point x="0.0" y="39.0" />
+      <point x="360.0" y="-800.0" />
+      <point x="752.5" y="-800.0" />
+      <point x="52.5" y="83.5" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Item" relationship="DEPENDENCY">
+      <point x="83.5" y="0.0" />
+      <point x="513.0" y="-40.0" />
+      <point x="513.0" y="-542.5" />
+      <point x="481.0" y="-542.5" />
+      <point x="481.0" y="-919.0" />
+      <point x="700.0" y="-919.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="com.company.Shop" target="com.company.Item" relationship="DEPENDENCY">
+      <point x="-143.5" y="0.0" />
+      <point x="513.0" y="-420.0" />
+      <point x="513.0" y="-542.5" />
+      <point x="481.0" y="-542.5" />
+      <point x="481.0" y="-919.0" />
+      <point x="700.0" y="-919.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="com.company.ItemManager" target="com.company.Item" relationship="CREATE">
+      <point x="-54.5" y="-105.0" />
+      <point x="245.5" y="-1320.0" />
+      <point x="-111.5" y="0.0" />
+    </edge>
+    <edge source="com.company.Item.StaticInnerComparator" target="com.company.Item" relationship="INNER_CLASS">
+      <point x="0.0" y="39.0" />
+      <point x="620.0" y="-800.0" />
+      <point x="752.5" y="-800.0" />
+      <point x="52.5" y="83.5" />
+    </edge>
+    <edge source="com.company.Shop" target="com.company.Equipment" relationship="CREATE">
+      <point x="143.5" y="15.0" />
+      <point x="1340.0" y="-405.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="com.company.Shop" target="com.company.Clothing" relationship="CREATE">
+      <point x="143.5" y="0.0" />
+      <point x="980.0" y="-420.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="com.company.ItemManager" target="com.company.Order" relationship="DEPENDENCY">
+      <point x="-188.5" y="0.0" />
+      <point x="55.0" y="-420.0" />
+      <point x="55.0" y="-542.5" />
+      <point x="120.0" y="-542.5" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="com.company.ItemManager" target="com.company.Item.StaticInnerComparator" relationship="CREATE">
+      <point x="188.5" y="-56.5" />
+      <point x="605.0" y="-476.5" />
+      <point x="-15.0" y="39.0" />
+    </edge>
+    <edge source="com.company.Equipment" target="com.company.Item" relationship="GENERALIZATION">
+      <point x="-182.0" y="0.0" />
+      <point x="1142.0" y="-860.0" />
+      <point x="1142.0" y="-1320.0" />
+      <point x="111.5" y="0.0" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Shop" relationship="CREATE">
+      <point x="83.5" y="15.0" />
+      <point x="680.0" y="-25.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.5446240337315531" showDependencies="true" x="774.5" y="-702.5000000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
