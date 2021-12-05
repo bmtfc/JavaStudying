@@ -1,0 +1,11 @@
+dishwasher MWP42 AEG 399.99 2000
+dishwasher MWP72 AEG 549.99 2400
+coffee_maker XC40 Philips 399.99 400
+coffee_maker XC40P Philips 499.99 500
+coffee_maker KR15 Krups 699.99 400
+coffee_maker KR20 Krups 799.99 450
+coffee_maker KR25 Krups 899.99 500
+vacuum_cleaner TY56 Bosch 399.99 1750
+vacuum_cleaner TY62 Bosch 599.99 2500
+vacuum_cleaner HG89 Philips 449.99 1850
+vacuum_cleaner HG99 Philips 999.99 2750

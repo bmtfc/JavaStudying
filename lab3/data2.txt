@@ -1,0 +1,8 @@
+multicooker MCT5 Tefal 199.99 700
+refrigerator RL2048 LG 599.99 2000
+refrigerator RG101 Samsung 479.99 1800
+refrigerator KGN676 Bosch 524.99 1900
+microwave MA500 Samsung 149.99 500
+microwave MQL1000 LG 249.99 1000
+washing_machine K192 LG 299.99 1500
+washing_machine ML45 Samsung 249.99 1200

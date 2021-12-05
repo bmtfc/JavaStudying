@@ -2,9 +2,7 @@
 телевізія - теле візія
 Television - tele vision
 television - tele vision
-cat - ca t
-catmyback - catmy back, cat my back, ca t my back
-CAT - ca t
-catmy - cat my, ca t my
-namecat - name cat, name ca t
-catnamename - cat name name, ca t name name
+catmyback - catmy back, cat my back
+catmy - cat my
+namecat - name cat
+catnamename - cat name name

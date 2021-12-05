@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        ArrayList<Item> items = new ArrayList<Item>();
+        ArrayList<Item> items = new ArrayList<>();
         Shop shop = new Shop();
         shop.fillItemArrayList(items);
         ItemManager itemManager = new ItemManager();

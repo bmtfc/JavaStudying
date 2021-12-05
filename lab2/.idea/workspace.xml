@@ -4,43 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5a34f9b-9704-4a28-b82b-ea8c71fc4ac3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Clothing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Equipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ItemManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/diagram.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/lab4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/segmentation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/src/com/company/StringWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/untitled104.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d5a34f9b-9704-4a28-b82b-ea8c71fc4ac3" name="Changes" comment="updated task: extreme sport items shop">
+      <change afterPath="$PROJECT_DIR$/../lab3/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/data1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/data2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/out/production/untitled104/com/company/HomeAppliance$InnerComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/out/production/untitled104/com/company/HomeAppliance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/out/production/untitled104/com/company/HomeApplianceList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/out/production/untitled104/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/out/production/untitled104/com/company/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/com/company/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/Shoes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/com/company/Shop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/ShopItem$InnerComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/ShopItem$StaticInnerComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/ShopItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/ShopItemManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/ShopItemManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/com/company/Tops.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Shoes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ShopItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ShopItemManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Tops.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,8 +133,17 @@
       <workItem from="1635799783159" duration="909000" />
       <workItem from="1635800839825" duration="8286000" />
       <workItem from="1635838680557" duration="780000" />
-      <workItem from="1635839561168" duration="382000" />
+      <workItem from="1635839561168" duration="2526000" />
+      <workItem from="1635875213249" duration="26000" />
     </task>
+    <task id="LOCAL-00001" summary="updated task: extreme sport items shop">
+      <created>1635840066255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635840066256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +163,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="updated task: extreme sport items shop" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated task: extreme sport items shop" />
   </component>
 </project>

@@ -9,21 +9,9 @@ import java.text.BreakIterator;
 import java.util.*;
 
 public class StringWork {
+    private static String input = "file.txt";
+    private static String output = "segmentation.txt";
     private Set<String> dictionary;
-
-    private static  String input = "file.txt";
-    private static  String output = "segmentation.txt";
-
-    // clear the content of the output file
-    private void clearOutputFile () {
-        try {
-            Path filePath = Paths.get(output);
-            Files.deleteIfExists(filePath);
-            Files.createFile(filePath);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
     public StringWork() {
         dictionary = new HashSet<String>();
@@ -37,15 +25,27 @@ public class StringWork {
         clearOutputFile();
     }
 
-    public void Work(){
+    // clear the content of the output file
+    private void clearOutputFile() {
+        try {
+            Path filePath = Paths.get(output);
+            Files.deleteIfExists(filePath);
+            Files.createFile(filePath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void Work() {
         String text = this.readFile(input);
         this.addWordsToDictionary(text);
         this.processText(text);
+        System.out.println();
     }
 
     // convert text to a list of sentences
-    public List<String> getSentences (String text){
-        List<String> sentences = new LinkedList<String>();
+    public List<String> getSentences(String text) {
+        List<String> sentences = new LinkedList<>();
 
         BreakIterator bi = BreakIterator.getSentenceInstance(Locale.ENGLISH);
         bi.setText(text);
@@ -60,7 +60,7 @@ public class StringWork {
     }
 
     // convert a sentence into a list of words
-    public List<String> getWords (String sentence){
+    public List<String> getWords(String sentence) {
         List<String> words = new LinkedList<String>();
 
         BreakIterator bi = BreakIterator.getWordInstance(Locale.ENGLISH);
@@ -76,7 +76,7 @@ public class StringWork {
     }
 
     // add all words from a text to the dictionary
-    public void addWordsToDictionary (String text){
+    public void addWordsToDictionary(String text) {
         List<String> sentences = getSentences(text);
 
         for (String sentence : sentences) {
@@ -89,7 +89,7 @@ public class StringWork {
     }
 
     // process text (output processed sentences)
-    public void processText (String text){
+    public void processText(String text) {
         List<String> sentences = getSentences(text);
 
         for (String sentence : sentences) {
@@ -101,12 +101,12 @@ public class StringWork {
     }
 
     // process a sentence (break into words, replace with a first word, output possible segmentations)
-    public String processSentence (String sentence){
-        String processedSentence = new String(sentence);
+    public String processSentence(String sentence) {
+        String processedSentence = sentence;
         List<String> words = getWords(sentence);
 
         // store the first word in a variable
-        String firstWord = new String(words.get(0));
+        String firstWord = words.get(0);
         for (String word : words) {
             // check if a word can be divided into separate words
             List<String> separated = breakIntoWords(word);
@@ -123,7 +123,7 @@ public class StringWork {
     }
 
     // replace a word in a sentence
-    public String replaceWord (String sentence, String originalWord, String updatedWord){
+    public String replaceWord(String sentence, String originalWord, String updatedWord) {
         String updatedSentence = sentence;
 
         BreakIterator bi = BreakIterator.getWordInstance(Locale.ENGLISH);
@@ -144,7 +144,7 @@ public class StringWork {
     }
 
     // break a word into a list of smaller words
-    public List<String> breakIntoWords (String word){
+    public List<String> breakIntoWords(String word) {
         List<String>[] indexes = new ArrayList[word.length() + 1];
         indexes[0] = new ArrayList<String>();
 
@@ -178,8 +178,8 @@ public class StringWork {
     }
 
     // recover the path using the 'indexes' array (get a resulting list)
-    public void recoverPath (List < String >[]indexes, List < String > res, String currentWord, String originalWord,
-                             int i){
+    public void recoverPath(List<String>[] indexes, List<String> res, String currentWord, String originalWord,
+                            int i) {
         if (i == 0) {
             if (!originalWord.equalsIgnoreCase(currentWord.trim())) {
                 res.add(currentWord.trim());
@@ -194,7 +194,7 @@ public class StringWork {
     }
 
     // read text from a file
-    public String readFile (String fileName){
+    public String readFile(String fileName) {
         String text = null;
 
         try {
@@ -207,7 +207,7 @@ public class StringWork {
     }
 
     // output the original word and the ways it may be broken into smaller words
-    public void outputSegmentationPair (String word, List < String > separated, String fileName){
+    public void outputSegmentationPair(String word, List<String> separated, String fileName) {
         StringBuilder output = new StringBuilder();
         Path filePath = Paths.get(fileName);
 

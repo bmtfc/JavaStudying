@@ -1,0 +1,59 @@
+[
+  {
+        "name": "Pepperoni",
+        "weight": 500,
+        "price": 10,
+        "components" : [
+                "dough",
+                "tomato",
+                "cheese",
+                "beacon"
+        ]
+  },
+  {
+        "name": "Margherita",
+        "weight": 500,
+        "price": 12,
+        "components" : [
+                "dough",
+                "tomato",
+                "mozzarella",
+                "sausage",
+		        "olives"
+        ]
+  },
+  {
+        "name": "Carbonara",
+        "weight": 450,
+        "price": 12,
+        "components" : [
+                "dough",
+                "tomato",
+                "mozzarella",
+                "sausage",
+		        "basil"
+        ]
+  },
+  {
+        "name": "Hawaiian",
+        "weight": 600,
+        "price": 9,
+        "components" : [
+                "dough",
+                "pineapple",
+                "cheese",
+                "chicken"
+        ]
+  },
+  {
+        "name": "Napoletana",
+        "weight": 400,
+        "price": 10,
+        "components" : [
+                "dough",
+                "oregano",
+                "mozzarella",
+                "anchovies"
+        ]
+  }
+]

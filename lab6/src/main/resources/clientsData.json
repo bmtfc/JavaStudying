@@ -1,0 +1,269 @@
+[
+  {
+    "name": "Douglas",
+    "address": "Lviv, Shevchenka 111a",
+    "orders": [
+      {
+        "orderNumber": "1",
+        "pizzas": [
+          {
+            "name": "Pepperoni",
+            "weight": 500,
+            "price": 10,
+            "components": [
+              "dough",
+              "tomato",
+              "cheese",
+              "beacon"
+            ]
+          },
+          {
+            "name": "Margherita",
+            "weight": 500,
+            "price": 12,
+            "components": [
+              "dough",
+              "tomato",
+              "mozzarella",
+              "sausage",
+              "olives"
+            ]
+          }
+        ],
+        "desiredTime": "2021-11-03 10:08:02",
+        "isDone": false
+      }
+    ]
+  },
+  {
+    "name": "George",
+    "address": "Lviv, Rynok 3b",
+    "orders": [
+      {
+        "orderNumber": "2",
+        "pizzas": [
+          {
+            "name": "Carbonara",
+            "weight": 450,
+            "price": 12,
+            "components": [
+              "dough",
+              "tomato",
+              "mozzarella",
+              "sausage",
+              "basil"
+            ]
+          },
+          {
+            "name": "Hawaiian",
+            "weight": 600,
+            "price": 9,
+            "components": [
+              "dough",
+              "pineapple",
+              "cheese",
+              "chicken"
+            ]
+          }
+        ],
+        "desiredTime": "2021-10-30 10:15:11",
+        "isDone": false
+      },
+      {
+        "orderNumber": "3",
+        "pizzas": [
+          {
+            "name": "Hawaiian",
+            "weight": 600,
+            "price": 9,
+            "components": [
+              "dough",
+              "pineapple",
+              "cheese",
+              "chicken"
+            ]
+          }
+        ],
+        "desiredTime": "2021-10-31 14:05:00",
+        "isDone": true
+      }
+    ]
+  },
+  {
+    "name": "Vlad",
+    "address": "Lviv, Sakharova 65",
+    "orders": [
+      {
+        "orderNumber": "4",
+        "pizzas": [
+          {
+            "name": "Margherita",
+            "weight": 500,
+            "price": 12,
+            "components": [
+              "dough",
+              "tomato",
+              "mozzarella",
+              "sausage",
+              "olives"
+            ]
+          },
+          {
+            "name": "Napoletana",
+            "weight": 400,
+            "price": 10,
+            "components": [
+              "dough",
+              "oregano",
+              "mozzarella",
+              "anchovies"
+            ]
+          }
+        ],
+        "desiredTime": "2021-10-30 10:15:00",
+        "isDone": true
+      },
+      {
+        "orderNumber": "5",
+        "pizzas": [
+          {
+            "name": "Napoletana",
+            "weight": 400,
+            "price": 10,
+            "components": [
+              "dough",
+              "oregano",
+              "mozzarella",
+              "anchovies"
+            ]
+          }
+        ],
+        "desiredTime": "2021-10-31 14:05:00",
+        "isDone": true
+      },
+      {
+        "orderNumber": "6",
+        "pizzas": [
+          {
+            "name": "Napoletana",
+            "weight": 400,
+            "price": 10,
+            "components": [
+              "dough",
+              "oregano",
+              "mozzarella",
+              "anchovies"
+            ]
+          }
+        ],
+        "desiredTime": "2021-10-31 15:05:00",
+        "isDone": false
+      }
+    ]
+  },
+  {
+    "name": "Nicolas",
+    "address": "Horodok, Chornovola 5",
+    "orders": [
+      {
+        "orderNumber": "7",
+        "pizzas": [
+          {
+            "name": "Margherita",
+            "weight": 500,
+            "price": 12,
+            "components": [
+              "dough",
+              "tomato",
+              "mozzarella",
+              "sausage",
+              "olives"
+            ]
+          }
+        ],
+        "desiredTime": "2021-10-31 10:08:02",
+        "isDone": true
+      }
+    ]
+  },
+  {
+    "name": "Olha",
+    "address": "Ternopil, Chornovola 4",
+    "orders": [
+      {
+        "orderNumber": "8",
+        "pizzas": [
+          {
+            "name": "Margherita",
+            "weight": 500,
+            "price": 12,
+            "components": [
+              "dough",
+              "tomato",
+              "mozzarella",
+              "sausage",
+              "olives"
+            ]
+          }
+        ],
+        "desiredTime": "2021-10-31 10:08:02",
+        "isDone": true
+      }
+    ]
+  },
+
+  {
+    "name": "Maxym",
+    "address": "Lviv, Topolna 9b",
+    "orders": [
+      {
+        "orderNumber": "9",
+        "pizzas": [
+          {
+            "name": "Pepperoni",
+            "weight": 500,
+            "price": 10,
+            "components": [
+              "dough",
+              "tomato",
+              "cheese",
+              "beacon"
+            ]
+          },
+          {
+            "name": "Margherita",
+            "weight": 500,
+            "price": 12,
+            "components": [
+              "dough",
+              "tomato",
+              "mozzarella",
+              "sausage",
+              "olives"
+            ]
+          }
+        ],
+        "desiredTime": "2021-10-30 10:15:00",
+        "isDone": true
+      },
+      {
+        "orderNumber": "10",
+        "pizzas": [
+          {
+            "name": "Napoletana",
+            "weight": 400,
+            "price": 10,
+            "components": [
+              "dough",
+              "oregano",
+              "mozzarella",
+              "anchovies"
+            ]
+          }
+        ],
+        "desiredTime": "2021-10-31 11:05:00",
+        "isDone": false
+      }
+    ]
+  }
+]
