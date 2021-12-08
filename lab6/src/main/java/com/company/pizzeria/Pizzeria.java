@@ -66,15 +66,6 @@ public class Pizzeria implements Serializable {
     }
 
     public long getMaxPizzaCount(Client client, List<Pizza> pizzaList) {
-//        return client.getOrders().stream()
-//                .flatMap(order -> order.getPizzas().stream())
-//                .filter(pizza -> pizzaList.stream().anyMatch(pizza::equals))
-//                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
-//                .entrySet().stream()
-//                .max(Map.Entry.comparingByValue())
-//                .map(Map.Entry::getValue)
-//                .orElse(0L);
-
         return pizzaList.stream().map(x -> Collections.frequency(client.getOrders().stream()
                         .flatMap(order -> order.getPizzas().stream())
                         .filter(pizza -> pizzaList.stream()

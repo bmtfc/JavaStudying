@@ -1,5 +1,5 @@
 package main.java.com.company;
-
+import com.company.WordsManager;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +12,7 @@ class WordsManagerTest {
 
     @Test
     void splitStringIntoSentences() {
-        ArrayList<String> l1 = new ArrayList<>( WordsManager.SplitStringIntoSentences("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec vulputate lectus."));
+        ArrayList<String> l1 = new ArrayList<>(WordsManager.SplitStringIntoSentences("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec vulputate lectus."));
         ArrayList<String> l2 = new ArrayList<>();
         l2.add("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
         l2.add(" Donec nec vulputate lectus.");
