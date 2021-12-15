@@ -1,8 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
@@ -10,7 +8,7 @@ public class Main {
     private static JFrame frame;
     public static JTextArea textArea;
 
-    public static void main(String[] args) throws InterruptedException, IOException {
+    public static void main(String[] args) throws IOException {
         createTextArea();
 
         System.out.println("Enter the number of threads: ");
